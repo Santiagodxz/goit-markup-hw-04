@@ -70,7 +70,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background: var(--color-w);
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   height: 80px;
 }
 
@@ -101,6 +101,7 @@ header {
   outline: none;
 }
 
+.link-nav:focus,
 .link-nav:hover {
   color: var(--color-logo);
 }
