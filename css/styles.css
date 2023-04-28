@@ -124,8 +124,10 @@ header {
   cursor: pointer;
 }
 
-.web-header .header-contact .header-tel .icon:hover,
-.web-header .header-contact .header-mail .icon:hover {
+.web-header .header-contact .header-tel:focus .icon,
+.web-header .header-contact .header-tel:hover .icon,
+.web-header .header-contact .header-mail:focus .icon,
+.web-header .header-contact .header-mail:hover .icon {
   stroke: var(--color-logo);
 }
 
@@ -244,6 +246,7 @@ header {
 .wwd-content img {
   width: 370px;
   height: 294px;
+  display: block;
 }
 
 .img-description {
@@ -306,8 +309,8 @@ header {
   fill: var(--color-icons);
 }
 
-.team-card .team-icons a .icon:focus,
-.team-card .team-icons a .icon:hover {
+.team-card .team-icons a:focus .icon,
+.team-card .team-icons a:hover .icon {
   fill: var(--color-w);
 }
 
@@ -341,8 +344,8 @@ header {
   fill: var(--color-icons);
 }
 
-.customers .customers-list .customer-logo .icon:focus,
-.customers .customers-list .customer-logo .icon:hover {
+.customers .customers-list .customer-logo:hover .icon,
+.customers .customers-list .customer-logo:focus .icon {
   fill: var(--color-logo);
 }
 
